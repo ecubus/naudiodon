@@ -1,6 +1,6 @@
 {
   "name": "@ecubus-pro/naudiodon",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "Node Stream bindings for PortAudio.",
   "main": "./index.js",
   "types": "./index.d.ts",
