@@ -1,5 +1,5 @@
 {
-  "name": "naudiodon",
+  "name": "@ecubus-pro/naudiodon",
   "version": "2.4.0",
   "description": "Node Stream bindings for PortAudio.",
   "main": "./index.js",
@@ -13,15 +13,14 @@
     "raspberry pi"
   ],
   "bugs": {
-    "url": "https://github.com/Streampunk/naudiodon/issues"
+    "url": "https://github.com/ecubus/naudiodon/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Streampunk/naudiodon.git"
+    "url": "git+https://github.com/ecubus/naudiodon.git"
   },
   "dependencies": {
-    "bindings": "^1.5.0",
-    "segfault-handler": "^1.3.0"
+    "bindings": "^1.5.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.7"
@@ -31,5 +30,16 @@
   "scripts": {
     "install": "node-gyp rebuild"
   },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "build/Release/*.node",
+    "build/Release/*.dll",
+    "build/Release/*.dylib",
+    "build/Release/*.so.2",
+    "build/Release/*.lib",
+    "LICENSE",
+    "README.md"
+  ],
   "gypfile": true
 }
